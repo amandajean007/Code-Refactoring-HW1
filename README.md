@@ -9,10 +9,10 @@ Project is refactored with:
 * CSS
 
 ## Setup
-To run this project...
+To run this project access this URL: https://amandajean007.github.io/Code-Refactoring-HW1/
 
 ## Project Status 
-In Progress
+Finished
 
 ## Sources
 * https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
