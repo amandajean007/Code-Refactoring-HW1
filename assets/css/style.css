@@ -1,0 +1,148 @@
+/*Makes a box around whatever is referenced by an element*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Sets the background color of the body.*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Adds padding, font, background color and color to whatever references this class*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Will make header classes line up side by side and defines text style in the h1 wherever this class is referenced*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+ /*Will make the "seo" in Horiseon a different color*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Gives everything in the header padding and margin, makes the words show up on the right, and defines text style in the div wherever this class is referenced*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Displays the header side-by-side rather than listed in the unordered list in the div wherever this class is referenced*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Sets the color of the links to white and text-decoration to none taking away the underline that typically accomodates a link*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Makes the font size in paragraphs 16px*/
+p {
+    font-size: 16px;
+}
+
+/*Adds and formats a background image wherever this class is referenced*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg") alt:url();
+    background-size: cover;
+    background-position: center;
+}
+
+/*Makes the image display to the left of the h2 and paragraph*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Makes the image display to the right of the h2 and paragraph*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Makes the div with class:benefits display to the right of the div with class:content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Creates a box for the content in div with class:benefits*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This centers the headers in h3*/
+.benefits h3 {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+/*Makes the images associated with this class a certain size*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Creates boxes for the content in div with class:link*/
+.link {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sizes down the photo to a max-height*/
+.link img {
+    max-height: 200px;
+}
+
+/*Sizes the headers in the link divs*/
+.link h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Centers the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Sets the footers font size*/
+.footer h2 {
+    font-size: 20px;
+}
+
+
