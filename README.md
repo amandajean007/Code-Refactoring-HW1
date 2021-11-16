@@ -9,7 +9,7 @@ Project is refactored with:
 * CSS
 
 ## Setup
-To run this project access this URL:
+To run this project access this URL: https://amandajean007.github.io/Horiseon-Code-Refactoring/
 
 ## Project Status 
 Finished
